@@ -8,7 +8,7 @@
 
 ---
 
-## ✨ 硬體特色
+## 硬體特色
 - **核心算力**：Raspberry Pi RP2350B 雙核心微控制器 (預設時脈 150MHz)
 - **超大儲存**：16MB Flash 記憶體 (支援分割儲存空間)
 - **全端控制**：板載 4 組直流馬達與編碼器介面、專屬總線舵機 (UART1) 連接埠
@@ -18,7 +18,7 @@
 
 ---
 
-## 🚀 3 分鐘快速安裝步驟
+##  快速安裝步驟
 
 ### 步驟一：新增開發板網址
 1. 打開 **Arduino IDE 2.x**。
@@ -30,7 +30,7 @@ https://github.com/earlephilhower/arduino-pico/releases/download/global/package_
 https://raw.githubusercontent.com/cmlo/MangoBlock-Arduino-Core/main/package_mangoblock_index.json
 ```
 
-(圖例：建議在此處放一張 IDE 偏好設定貼上網址的截圖)
+(圖例：待補......)
 
 ### 步驟二：安裝底層核心與 MangoBlock 套件
 點擊 IDE 左側邊欄的 「開發板管理員 (Boards Manager)」 圖示。
@@ -43,7 +43,7 @@ https://raw.githubusercontent.com/cmlo/MangoBlock-Arduino-Core/main/package_mang
 
 找到 MangoBlock Boards，點擊 「安裝」。
 
-(圖例：建議在此處放一張搜尋 MangoBlock 並點擊安裝的截圖)
+(圖例：搜尋 MangoBlock 並點擊安裝的截圖, 待補.....)
 
 ### 步驟三：選擇開發板
 點擊 IDE 上方的開發板選擇下拉選單，選擇 選擇其他開發板與連接埠 (Select other board and port)。
@@ -52,9 +52,9 @@ https://raw.githubusercontent.com/cmlo/MangoBlock-Arduino-Core/main/package_mang
 
 將開發板接上電腦的 USB，勾選對應的 COM Port。
 
-🎉 恭喜！您已經完成所有設定！
+恭喜！您已經完成所有設定！
 
-📚 內建函式庫與教學範例
+內建函式庫與教學範例
 本套件已將 MangoBlock 專屬函式庫與底層繪圖/燈光依賴套件完美打包。學生只需在程式碼第一行輸入：
 
 C++
@@ -66,13 +66,13 @@ C++
 
 01.Basics: 基礎燈光與按鈕控制
 
-02.Motor_Control: 帶有編碼器計數的馬達巡線基礎
+02.Motor: 帶有編碼器計數的馬達巡線基礎
 
 03.Display: TFT 螢幕繪製與文字顯示
 
 04.MangoBlock_System: 整合姿態感測與 Wi-Fi 的進階機器人應用
 
-🛠 常見問題 (FAQ)
+常見問題 (FAQ)
 Q: 按下上傳時，需要手動按板子上的按鈕嗎？
 A: 不需要！本套件已支援 USB 自動重置燒錄功能，只要在 IDE 點擊「上傳」，板子會自動進入燒錄模式並重新啟動。
 
