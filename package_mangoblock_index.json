@@ -11,12 +11,12 @@
       "platforms": [
         {
           "name": "MangoBlock Boards",
-          "architecture": "rp2350b",
+          "architecture": "rp2040",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/cmloE/MangoBlock-Arduino-Core/releases/download/v1.0.0/MangoBlock-Board-1.0.0.zip",
+          "url": "https://github.com/cmlo/MangoBlock-Arduino-Core/releases/download/v1.0.0/MangoBlock-Board-1.0.0.zip",
           "archiveFileName": "MangoBlock-Board-1.0.0.zip",
-          "checksum": "SHA-256: D11CCB39716158D3B873CB2409DF16A453787056C2B05487EEEE4FCCCB42E875",
+          "checksum": "SHA-256:D11CCB39716158D3B873CB2409DF16A453787056C2B05487EEEE4FCCCB42E875",
           "size": 24904,
           "boards": [
             {
