@@ -26,8 +26,8 @@
 3. 在視窗下方的 **「額外的開發板管理員網址 (Additional boards manager URLs)」** 欄位中，將以下兩行網址**完整複製並貼上**（若原本已有其他網址，請用逗號 `,` 或換行隔開）：
 
 ```text
-[https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json](https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json),
-[https://raw.githubusercontent.com/cmlo/MangoBlock-Arduino-Core/main/package_mangoblock_index.json](https://raw.githubusercontent.com/cmlo/MangoBlock-Arduino-Core/main/package_mangoblock_index.json)
+https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json,
+https://raw.githubusercontent.com/cmlo/MangoBlock-Arduino-Core/main/package_mangoblock_index.json
 ```
 
 (圖例：建議在此處放一張 IDE 偏好設定貼上網址的截圖)
