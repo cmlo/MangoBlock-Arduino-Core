@@ -27,4 +27,54 @@
 
 ```text
 [https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json](https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json),
-[https://raw.githubusercontent.com/YOUR_GITHUB_NAME/MangoBlock-Arduino-Core/main/package_mangoblock_index.json](https://raw.githubusercontent.com/YOUR_GITHUB_NAME/MangoBlock-Arduino-Core/main/package_mangoblock_index.json)
+[https://raw.githubusercontent.com/cmlo/MangoBlock-Arduino-Core/main/package_mangoblock_index.json](https://raw.githubusercontent.com/cmlo/MangoBlock-Arduino-Core/main/package_mangoblock_index.json)
+```
+
+(圖例：建議在此處放一張 IDE 偏好設定貼上網址的截圖)
+
+### 步驟二：安裝底層核心與 MangoBlock 套件
+點擊 IDE 左側邊欄的 「開發板管理員 (Boards Manager)」 圖示。
+
+在搜尋框中輸入 rp2040。
+
+找到由 Earle F. Philhower, III 提供的 Raspberry Pi Pico/RP2040，點擊 「安裝」。（檔案較大，請耐心等待下載完成）
+
+接著，在搜尋框中改輸入 MangoBlock。
+
+找到 MangoBlock Boards，點擊 「安裝」。
+
+(圖例：建議在此處放一張搜尋 MangoBlock 並點擊安裝的截圖)
+
+### 步驟三：選擇開發板
+點擊 IDE 上方的開發板選擇下拉選單，選擇 選擇其他開發板與連接埠 (Select other board and port)。
+
+搜尋並選擇 MangoBlock X4-RP2350B。
+
+將開發板接上電腦的 USB，勾選對應的 COM Port。
+
+🎉 恭喜！您已經完成所有設定！
+
+📚 內建函式庫與教學範例
+本套件已將 MangoBlock 專屬函式庫與底層繪圖/燈光依賴套件完美打包。學生只需在程式碼第一行輸入：
+
+C++
+#include <MangoBlock.h>
+即可透過 Mango.begin(); 喚醒所有硬體。
+
+如何開啟教學範例？
+請點擊選單：檔案 (File) ➔ 範例 (Examples)，往下捲動找到 MangoBlock，裡面已依據課程難度為您準備好一系列的教學講義碼：
+
+01.Basics: 基礎燈光與按鈕控制
+
+02.Motor_Control: 帶有編碼器計數的馬達巡線基礎
+
+03.Display: TFT 螢幕繪製與文字顯示
+
+04.MangoBlock_System: 整合姿態感測與 Wi-Fi 的進階機器人應用
+
+🛠 常見問題 (FAQ)
+Q: 按下上傳時，需要手動按板子上的按鈕嗎？
+A: 不需要！本套件已支援 USB 自動重置燒錄功能，只要在 IDE 點擊「上傳」，板子會自動進入燒錄模式並重新啟動。
+
+Q: 編譯時出現 Adafruit_GFX.h 找不到的錯誤？
+A: 本套件已經內建所需依賴。若發生此錯誤，請檢查是否選錯了開發板型號，請確保選擇的是 MangoBlock X4-RP2350B。
