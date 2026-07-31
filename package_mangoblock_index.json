@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://github.com/cmlo/MangoBlock-Arduino-Core/releases/download/v1.0.0/MangoBlock-Board-1.0.0.zip",
           "archiveFileName": "MangoBlock-Board-1.0.0.zip",
-          "checksum": "SHA-256:E71A602C5A377DE05819A5F25F4DF30F78943A78F536250F28555B7CD0E0AE71",
-          "size": 26546,
+          "checksum": "SHA-256:771D0FDDFF06B3EA61C0B3627CED5F8FE5B235E2FCF79898D42C8781704195BD",
+          "size": 30180,
           "boards": [
             {
               "name": "MangoBlock X4-RP2350B"
